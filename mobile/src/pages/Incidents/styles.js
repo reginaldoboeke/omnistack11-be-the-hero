@@ -41,7 +41,7 @@ export const Description = styled.Text`
 `;
 
 export const IncidentList = styled.FlatList.attrs({
-  // showsVerticalScrollIndicator: false,
+  showsVerticalScrollIndicator: false,
 })`
   margin-top: 32px;
 `;
